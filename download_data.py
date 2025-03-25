@@ -53,7 +53,7 @@ def download_data(query: str, filename: str, max_results: int):
         return
 
     # TODO: add stub
-    Entrez.email = email # type: ignore
+    Entrez.email = email  # type: ignore
 
     # create folder path if it doesn't exist
     path = Path(filename)
